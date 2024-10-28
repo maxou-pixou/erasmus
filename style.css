@@ -954,6 +954,25 @@ nav {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+#juin li {
+    margin: 10px;
+    text-align: center;
+}
+
+#juin img {
+    
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+#juin ul li img:hover {
+    transform: scale(1.05);
 }
 
     /* juillet - Friends */
