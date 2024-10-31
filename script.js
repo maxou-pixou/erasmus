@@ -254,7 +254,7 @@ document.getElementById('cancelButton').addEventListener('click', function() {
 // }
 
 document.addEventListener('DOMContentLoaded', function() {
-    const videos = document.querySelectorAll('video'); // Sélectionne toutes les vidéos
+    const videos = document.getElementById('maVideo'); // Sélectionne toutes les vidéos
     const correctPassword = "hive";  // Remplace par le mot de passe désiré
 
     videos.forEach(videoElement => {
